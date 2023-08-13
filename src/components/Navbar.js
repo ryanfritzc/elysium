@@ -1,9 +1,9 @@
 import * as S from "../styles/ComponentStyles";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <S.NavMainDiv>
-            <S.Title>Hello</S.Title>
+            <S.Navlink to="/">Elysium</S.Navlink>
         </S.NavMainDiv>
     );
 }
