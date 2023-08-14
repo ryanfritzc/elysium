@@ -12,6 +12,7 @@ export const NavMainDiv = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
 `;
 export const Navlink = styled(Link)`
     text-decoration: none;
